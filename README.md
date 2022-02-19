@@ -4,6 +4,7 @@
 
   <p align="center">
     This is a demo of a chash machine, a user can create a new account or sign in with an existing account.
+    To create an account, user must have a balance greater than $1000, else he will be redirected to the sign up page.
     In the users profile, it's possible to deposit or withdraw debit funds, withdraw credit funds (which will create a credit debt), or pay your credit debt.
   </p>
 </div>
