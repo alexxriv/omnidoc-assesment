@@ -31,6 +31,8 @@
    ```sh
    npm install
    ```
+4. Edit src/keys.js file with your development enviorement keys and run db.sql file
+
 3. Run the project as developer
    ```sh
    npm run dev
