@@ -1,0 +1,35 @@
+<div class="container-p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3>Welcome {{user.fullname}}</h3>
+                    <h4>{{user.username}}</h4>
+
+                </div>
+            </div>
+            <div class="card text-center mt-4 mb-4">
+                <div class="card-body">
+                    <h3>Your Debit Amount: </h3>
+                    <h4>{{user.debit}}</h4>
+                    <a href="/debit" class="btn btn-secondary"> Withdraw/Deposit</a>
+                </div>
+            </div>
+            <div class="card text-center mb-4">
+                <div class="card-body">
+                    <h3>Your Credit Amount: </h3>
+                    <h4>{{user.credit}}</h4>
+                    <a href="/credit" class="btn btn-secondary"> Withdraw </a>
+                </div>
+            </div>
+            <div class="card text-center mb-4">
+                <div class="card-body">
+                    <h3>Your Credit Debt: </h3>
+                    <h4>{{user.credit_debt}}</h4>
+                    <a href="/payCredit" class="btn btn-secondary"> Pay </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

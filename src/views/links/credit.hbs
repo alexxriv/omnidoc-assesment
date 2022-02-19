@@ -1,0 +1,22 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card mb-5">
+                <div class="card-title">
+                    <h3>Amount to withdraw</h3>
+                    <h5>Available: {{user.credit}}</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/withdrawCredit" method="POST">
+                        <div class="form-group mb-2">
+                            <input type="text" value="" class="form-control" name="credit"  autofocus>
+                        </div>
+                            <button class="btn btn-success">
+                                Save
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

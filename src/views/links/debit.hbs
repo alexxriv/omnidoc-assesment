@@ -1,0 +1,37 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card mb-5">
+                <div class="card-title p-2">
+                    <h3> Amount to withdraw </h3>
+                    <h5> Available: {{user.debit}}</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/withdrawDebit" method="POST">
+                        <div class="form-group mb-2">
+                            <input type="text" value="" class="form-control" name="debit"  autofocus>
+                        </div>
+                            <button class="btn btn-success">
+                                Withdraw
+                            </button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title p-2">
+                    <h3> Increase Savings </h3>
+                </div>
+                <div class="card-body">
+                    <form action="/depositDebit" method="POST">
+                        <div class="form-group mb-2">
+                            <input type="text" value="" class="form-control" name="debit">
+                        </div>
+                            <button class="btn btn-success">
+                                Deposit
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
