@@ -37,4 +37,5 @@
 3. Run the project as developer
    ```sh
    npm run dev
-   ```
+
+El proyecto será visible en localhost:4000
