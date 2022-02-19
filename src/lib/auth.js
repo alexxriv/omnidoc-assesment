@@ -11,5 +11,14 @@ module.exports = {
             return res.redirect('/profile');
         }
         return next();
+    },
+
+    enoughBalance(req,res,next){
+        if(req.body.debit<1000){
+            return res.redirect('/signup');
+        }
+        return next();
     }
+
+    
 }
